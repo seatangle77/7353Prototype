@@ -1,0 +1,59 @@
+{
+    "outcomes": [
+      {
+        "text1": "Improve the independent shopping ability of students with autism.",
+        "text2": "Reduce the anxiety of shopping in the real world through simulated environments.",
+        "text3": null,
+        "img": null
+      }
+    ],
+    "subjects": [
+      {
+        "text1": "Students with autism.",
+        "text2": null,
+        "text3": null,
+        "img": "subject_img.jpg"
+      }
+    ],
+    "objects": [
+      {
+        "text1": "Mastering independent shopping skills through a VR supermarket game.",
+        "text2": null,
+        "text3": null,
+        "img": null
+      }
+    ],
+    "instruments": [
+      {
+        "text1": "VR glasses and accompanying controllers, providing immersive shopping experience.",
+        "text2": "A VR supermarket game featuring scenarios like product selection, price comparison, cart usage, and checkout.",
+        "text3": null,
+        "img": "instrument_img.png"
+      }
+    ],
+    "rules": [
+      {
+        "text1": "The rules, encompassing game play, shopping, and interaction with virtual employees, guide children in understanding game norms and task completion.",
+        "text2": null,
+        "text3": null,
+        "img": null
+      }
+    ],
+    "community": [
+      {
+        "text1": "A support network composed of students with autism, teachers, tutors, and parents, jointly participating in the student's learning process.",
+        "text2": null,
+        "text3": null,
+        "img": "community_img.png"
+      }
+    ],
+    "division_of_labor": [
+      {
+        "text1": "Students: Actively participate in the game and complete shopping tasks.",
+        "text2": "Teachers or tutors: Provide technical and strategic guidance, help students understand task requirements, and solve problems in the game.",
+        "text3": "Parents: Provide family support, encourage students to apply the skills learned to shopping in the real world.",
+        "img": null
+      }
+    ]
+  }
+  

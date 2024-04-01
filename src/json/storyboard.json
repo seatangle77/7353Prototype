@@ -1,0 +1,55 @@
+{
+    "activity": [
+      {
+        "description": "Scene 1: Introducing VR device, a teacher explains the workings of VR devices to engaged students.",
+        "img": "activitysb1.webp"
+      },
+      {
+        "description": "Scene 2: Demonstrating the VR supermarket game interface and operations.",
+        "img": "activitysb2.webp"
+      },
+      {
+        "description": "Scene 3: Students take turns wearing VR goggles and navigate the virtual supermarket to find items on their shopping list.",
+        "img": "activitysb3.webp"
+      },
+      {
+        "description": "Scene 4: Simulating the checkout process, students learn to proceed to checkout and select payment methods in a virtual setting.",
+        "img": "activitysb4.webp"
+      },
+      {
+        "description": "Scene 5: After the game ends, teachers and students have discussions and reviews to boost the students' confidence and encourage them to learn how to solve practical problems.",
+        "img": "activitysb5.webp"
+      }
+    ],
+    "prototype": [
+        {
+          "description": "Scene 1: A user explores a detailed virtual supermarket with a variety of products.",
+          "img": "prototypesb1.webp"
+        },
+        {
+          "description": "Scene 2: The user seeks assistance from a virtual assistant to find specific items.",
+          "img": "prototypesb2.webp"
+        },
+        {
+          "description": "Scene 3: The assistant provides directions and helps the user locate each item.",
+          "img": "prototypesb3.webp"
+        },
+        {
+          "description": "Scene 4: The user navigates through different sections, selects items, and adds them to their virtual shopping cart.",
+          "img": "prototypesb4.webp"
+        },
+        {
+          "description": "Scene 5: With shopping complete, the user proceeds to 'Checkout'.",
+          "img": "prototypesb5.webp"
+        },
+        {
+          "description": "Scene 6: The user scans their items, chooses bags, payment method, and completes the transaction.",
+          "img": "prototypesb6.webp"
+        },
+        {
+          "description": "Scene 7: Alternatively, the user can opt for self-checkout, scan items individually, address discrepancies, and complete the payment process.",
+          "img": "prototypesb7.webp"
+        }
+      ]
+  }
+  
