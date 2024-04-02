@@ -28,13 +28,18 @@ import ShopAssistantDialogue from '../components/ShopAssistantDialogue.vue';
 import MapComponent from '../components/MapComponent.vue';
 import ProductInfo from '../components/ProductInfo.vue';
 import CheckoutDialog from '../components/CheckoutDialog.vue';
+import shoppingAssistantURL from '../assets/3dwomen/scene.gltf';
+import shoppingCartModelURL from '../assets/3dmarket/scene.gltf';
+
 
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer();
+const loader = new GLTFLoader();
 const controls = new OrbitControls(camera, renderer.domElement); // 创建OrbitControls实例
-
+const shoppingCartModel = shoppingCartModelURL;
+const shoppingAssistant = shoppingAssistantURL;
 
 export default {
     name: 'SupermarketScene',
@@ -133,9 +138,8 @@ export default {
 
             renderer.setSize(window.innerWidth, window.innerHeight);
             this.$refs.canvasContainer.appendChild(renderer.domElement);
-            const shoppingCartModel = '/3dmarket/scene.gltf';
-            const loader = new GLTFLoader();
-            const shoppingAssistant = '/3dwomen/scene.gltf';
+            //const shoppingCartModel = '/3dmarket/scene.gltf';
+            //const shoppingAssistant = '/3dwomen/scene.gltf';
             loader.load(shoppingAssistant, function (gltf) {
                 // 假设模型是scene的第一个子级
                 const originalModel = gltf.scene.children[0];
