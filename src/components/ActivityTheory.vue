@@ -71,11 +71,11 @@
     <!-- Instruments Popover -->
     <Tooltip :visible="showInstrumentsPopover" :x="800" :y="20" :textdata="tooltips.instruments[0]" :image="tooltips.outcomes[0].img"/>
     <Tooltip :visible="showSubjectPopover" :x="225" :y="150" :textdata="tooltips.subjects[0]" :image="tooltips.outcomes[0].img"/>
-    <Tooltip :visible="showObjectPopover" :x="860" :y="260" :textdata="tooltips.objects[0]" :image="tooltips.outcomes[0].img"/>
-    <Tooltip :visible="showOutcomePopover" :x="950" :y="180" :textdata="tooltips.outcomes[0]" :image="tooltips.outcomes[0].img"/>
+    <Tooltip :visible="showObjectPopover" :x="860" :y="200" :textdata="tooltips.objects[0]" :image="tooltips.outcomes[0].img"/>
+    <Tooltip :visible="showOutcomePopover" :x="950" :y="120" :textdata="tooltips.outcomes[0]" :image="tooltips.outcomes[0].img"/>
     <Tooltip :visible="showRulesPopover" :x="62" :y="520" :textdata="tooltips.rules[0]" :image="tooltips.outcomes[0].img"/>
-    <Tooltip :visible="showCommunityPopover" :x="530" :y="240" :textdata="tooltips.community[0]" :image="tooltips.outcomes[0].img"/>
-    <Tooltip :visible="showDivisionPopover" :x="900" :y="330" :textdata="tooltips.division_of_labor[0]" :image="tooltips.outcomes[0].img"/>
+    <Tooltip :visible="showCommunityPopover" :x="530" :y="210" :textdata="tooltips.community[0]" :image="tooltips.outcomes[0].img"/>
+    <Tooltip :visible="showDivisionPopover" :x="900" :y="290" :textdata="tooltips.division_of_labor[0]" :image="tooltips.outcomes[0].img"/>
 
 
 

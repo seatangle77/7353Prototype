@@ -10,6 +10,7 @@ export function setupBuild() {
       input: {
         index: './index.html',
         prototype: './prototype.html',
+        storyboard: './storyboard.html',
       },
       output: {
         chunkFileNames: 'static/js/[name]-[hash].js',
