@@ -12,9 +12,6 @@ import { RouterLink, RouterView } from 'vue-router'
         <el-menu-item index="2">
           <router-link to="/storyboard" class="nav-link">Storyboard</router-link>
         </el-menu-item>
-        <el-menu-item index="3">
-          <router-link to="/prototype" class="nav-link">Prototype</router-link>
-        </el-menu-item>
       </el-menu>
     </el-header>
 
